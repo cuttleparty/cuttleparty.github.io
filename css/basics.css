@@ -1,8 +1,30 @@
-.main {
-    margin : 1% auto;
-    max-width : 100%;
+body {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 14px;
 }
 
-body {
-    background-color : #f2e6ff;
+.outer {
+  height: 100vh;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 50%;
+  border: 3px double black;
+  padding: 5%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.innermost {
+  display: inline-block;
+  margin:10px;   
+}
+
+.innermost img {
+  border: 2px solid black;
 }
