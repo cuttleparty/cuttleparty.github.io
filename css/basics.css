@@ -5,7 +5,6 @@ body {
 
 .outer {
   height: 100vh;
-  /*display: flex;*/
   justify-content: center;
   align-items: center;
 }
@@ -20,11 +19,17 @@ body {
   align-items: center;
 }
 
-.innermost {
-  display: inline-block;
-  margin:10px;   
+.column {
+  margin: 10px;
+  flex: 50%;
 }
 
-.innermost img {
+@media (max-width:850px) {
+.inner {
+  flex-direction: column;
+}
+}
+
+.column img {
   border: 2px solid black;
 }
