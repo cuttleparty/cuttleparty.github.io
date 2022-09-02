@@ -1,6 +1,7 @@
 body {
   font-family: 'Sorts Mill Goudy', serif;
-  font-size: 14px;
+  font-size: 26px;
+  background-color: #fcf7ee
 }
 
 .outer {
@@ -9,14 +10,19 @@ body {
   align-items: center;
 }
 
-.inner {
-  width: 50%;
+.info {
   border: 3px double black;
+  background-color: white;
+  width: 50%;
   padding: 5%;
-  display: flex;
   margin: auto;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.inner {
+  display: flex;
 }
 
 .column {
