@@ -8,6 +8,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  margin: 0%;
 }
 
 .info {
@@ -26,19 +27,21 @@ body {
 }
 
 .column {
-  margin: 10px;
   flex: 50%;
 }
 
-@media (max-width:950px) {
+img {
+  border: 3px double black;
+}
+
+@media (max-width:992px) {
 .inner {
   flex-direction: column;
 }
 .info {
   width: 80%;
 }
+.column {
+    font-size: 24px;
 }
-
-.column img {
-  border: 2px solid black;
 }
