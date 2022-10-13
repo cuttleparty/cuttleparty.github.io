@@ -22,6 +22,18 @@ body {
   text-align: center;
 }
 
+.note {
+  border: 3px double black;
+  background-color: white;
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .inner {
   display: flex;
 }
